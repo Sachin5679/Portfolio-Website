@@ -17,10 +17,11 @@ const HeroSection = () => {
     delaySpeed: 1000
     })
   return (
-    <section id="home">
+    <section id="home" className="sm:pt-10">
        <div className='flex flex-col text-center items-center justify-center md:flex-row md:space-x-4 md:text-left md:pt-20 md:pb-20 sm:pt-20'>
             <div className='md:w-1/2 md:mt-2'>
-                <Image className='rounded-full shadow-2xl mt-6 ' src='/myphoto.jpeg' alt='' width={300} height={300}/>
+                <Image className='rounded-full shadow-2xl mt-6' src='/myphoto.jpeg' alt='' width={300} height={300}/>
+                {/* <img src="/myphoto.jpeg" className="rounded-full shadow-2xl h-150 w-150 mt-6 sm:h-200 sm:w-200" alt="" /> */}
             </div>
             <div className='md:mt-2 md:w-3/5'>
                 <h1 className='font-bold text-4xl mt-6 md:text-7xl'> Hi, <span className='font-bold text-teal-500'>Sachin Jayadev</span>  this side!</h1>
