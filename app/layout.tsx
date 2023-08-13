@@ -1,5 +1,3 @@
-
-
 import RootLayout from './clientLayout'
 import './globals.css'
 import type { Metadata } from 'next'
